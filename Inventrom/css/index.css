@@ -1,0 +1,194 @@
+body{
+    margin:0px;
+    overflow-x: hidden;
+    background-color: #f8f9f9;
+}
+.navigation{
+    position:fixed;
+    right:0px;
+    left:0px; 
+    height:70px;
+    z-index: 100;
+    background-color: white;
+}
+.logo{    
+    float:left;
+    margin: 10px 0px 0px 300px;
+}
+.links{
+    float:right;
+    margin:20px 300px 0px 0px;
+}
+.links a{
+    padding-right: 30px;    
+    color: #696868;
+    font-family:Helvetica;
+    text-decoration: none;
+}
+
+.content{
+    position:absolute;
+    top:78px;
+    right:0px;
+    margin: 0px;
+    width: 100%;
+    font-weight: bolder;
+    font-size:medium;
+    font-family:Helvetica;
+}
+.bg-img{
+    
+    width:100%;
+    height: 480px;
+    background-repeat: round;
+    text-align: center;
+    transform:scale(1.2);
+}
+.quote{    
+    position:relative;
+    top:45%;
+    margin : 10px; 
+    padding-top:0px;
+    color:white;
+    font-weight: normal;
+    font-size: 15px;
+    font-family:Helvetica;
+    font-style: italic;
+}
+.click{
+    position:relative;
+    top:50%;
+    color:white;
+    font-size: 12px;
+    text-decoration: none;
+    font-style: normal;
+}
+.about_bg{
+    width:100%;
+    background-color: white;
+}
+.about_section{    
+    width: 70%;
+    margin-top: 3% ;
+    margin-left: 16%;
+    text-align: center;
+    background-color: white;
+    height:600px;
+    color:   #139139;
+}
+.about_section p{
+    color:#696868 ;
+    font-weight: normal;
+
+}
+.about_section img{    
+    width:470px;
+    height: 270px; 
+    margin-left: 5%;    
+}
+.card{
+    width:45%;    
+    height:300px; 
+    padding:1.5%;
+    text-align: center;
+    float:left;
+}
+.description{
+    font-size: 13px;
+    text-align: left;    
+    margin-left: 5%;
+    width: 100%;
+}
+.awards_section{    
+    width: 100%;
+    margin-top: 3% ;
+    background-color: #f8f9f9;
+    text-align: center;
+    height:450px;
+    color:   #139139;
+}
+.award_collection{
+    margin-left: 17%;
+}
+.award{
+    width:17%;    
+    height:300px;    
+    text-align: center;
+    float:left;
+}
+.award img{    
+    width:250px;
+    height: 150px; 
+   
+}
+.award_description{    
+    text-align: center;    
+    font-size: 13px;
+    width: 100%;
+}
+.award_description p{
+    line-height: 1;
+    color:#696868 ;
+    font-weight: normal;
+    font-size: 9px;
+}
+.contact_section{
+    width: 100%;    
+    background-color: #f8f9f9;
+    height:800px;
+    color: #139139;
+}
+.contact{  
+    height:500px; 
+    float:left;    
+}
+.form{
+    width:50%;    
+}
+.form_content{
+    width: 70%;
+    float:right;
+}
+.location{
+    width:50%;
+}
+.address{
+    color:#696868 ; 
+    line-height: 0.6;
+    font-weight: normal;
+    font-size: 11px;  
+}
+
+.icons{
+    width:1%;    
+    height:200px; 
+    float:left;     
+}
+.addr{
+    padding-left: 20px;
+    width:50%;    
+    height:200px; 
+    float:left;  
+}
+
+.footer_section{    
+    width: 100%;
+    height: 100px;
+    background-color: #139139;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    font-family:Helvetica;
+}
+.copy{   
+    margin: 1% 1% 0 20%;
+    float: left;
+}
+.social{
+    float: right;
+    
+    margin: 1% 25% 0 0;
+}
+.social img{
+    padding-right:20px;
+}
